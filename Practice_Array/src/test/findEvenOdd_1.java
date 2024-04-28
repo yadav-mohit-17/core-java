@@ -1,3 +1,5 @@
+//first print even then after print odd number
+
 package test;
 
 public class findEvenOdd_1 {
@@ -13,7 +15,7 @@ public class findEvenOdd_1 {
 			}
 		}
 		for(int i=0;i<arr.length;i++) {
-			if(arr[i]!=0) {
+			if(arr[i]%2!=0) {
 				a[index]=arr[i];
 				index++;
 			}
